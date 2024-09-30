@@ -4,16 +4,16 @@ import SlowPrint
 from random import randint
 
 class fighter:
-    def __init__(self, name, age, health, speed, upperDamage):
+    def __init__(self, name, age, health, speed, maxDamage):
         self.name = name
         self.age = age
         self.health = health
         self.speed = speed
-        self.upperDamage = upperDamage
+        self.maxDamage = maxDamage
 
-    def hitEnemy(self, otherFighter, upperDamage):
+    def hitEnemy(self, otherFighter, maxDamage):
 
-        damage = randint(5, self.upperDamage)
+        damage = randint(5, self.maxDamage)
 
         otherFighter.health -= damage
         
@@ -35,10 +35,10 @@ SlowPrint.slowPrint(str(fighter2))
 
 for i in range(6):
 
-    damage_dealt = fighter1.hitEnemy(fighter2, fighter1.upperDamage)
+    damage_dealt = fighter1.hitEnemy(fighter2, fighter1.maxDamage)
     SlowPrint.slowPrint(f"{fighter1.name} hits {fighter2.name} for {damage_dealt} damage")
     SlowPrint.slowPrint(f"{fighter2.name} is now at {fighter2.health} HP")
 
-    damage_dealt = fighter2.hitEnemy(fighter1, fighter2.upperDamage)
+    damage_dealt = fighter2.hitEnemy(fighter1, fighter2.maxDamage)
     SlowPrint.slowPrint(f"{fighter2.name} hits {fighter1.name} for {damage_dealt} damage")
     SlowPrint.slowPrint(f"{fighter1.name} is now at {fighter1.health} HP")
