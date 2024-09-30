@@ -1,6 +1,6 @@
 import time
 import sys
-import SlowPrint
+from SlowPrint import slowPrint
 from random import randint
 
 class fighter:
@@ -28,17 +28,17 @@ fighter2 = fighter('Jack Duel', 24, 90, 'fast', 12)
 
 
 
-SlowPrint.slowPrint(str(fighter1))
+slowPrint(str(fighter1))
 print()
-SlowPrint.slowPrint(str(fighter2))
+slowPrint(str(fighter2))
 
 
 for i in range(6):
 
     damage_dealt = fighter1.hitEnemy(fighter2, fighter1.maxDamage)
-    SlowPrint.slowPrint(f"{fighter1.name} hits {fighter2.name} for {damage_dealt} damage")
-    SlowPrint.slowPrint(f"{fighter2.name} is now at {fighter2.health} HP")
+    slowPrint(f"{fighter1.name} hits {fighter2.name} for {damage_dealt} damage")
+    slowPrint(f"{fighter2.name} is now at {fighter2.health} HP")
 
     damage_dealt = fighter2.hitEnemy(fighter1, fighter2.maxDamage)
-    SlowPrint.slowPrint(f"{fighter2.name} hits {fighter1.name} for {damage_dealt} damage")
-    SlowPrint.slowPrint(f"{fighter1.name} is now at {fighter1.health} HP")
+    slowPrint(f"{fighter2.name} hits {fighter1.name} for {damage_dealt} damage")
+    slowPrint(f"{fighter1.name} is now at {fighter1.health} HP")
