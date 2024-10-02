@@ -5,6 +5,7 @@ body{
 
 table, th, td {
     border: 1px solid black;
+    
   }
 
 .flex-container {
@@ -19,7 +20,7 @@ h1{
     color: whitesmoke;
     background-color: #505050;
     border: 2px solid whitesmoke;
-    margin-top: 5px;
+    margin-top: 1%;
     margin-right: auto;
     margin-left: auto;
     width: 300px;
@@ -51,15 +52,19 @@ h1{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
+    
 }
 .other-month{
-    color:#606060;
+    color:gray;
 }
+
 .red-day{
     color: red;
 }
 .border{
-    width: 520px;
+    width: fit-content;
     padding: 5px;
-    border: 5px solid black 
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 1%;
 }
