@@ -1,7 +1,7 @@
 import time
 import sys
 
-def slowPrint(String, delay=0.015):
+def slowPrint(String, delay=0.05):
     for char in String:
         sys.stdout.write(char)
         sys.stdout.flush()
