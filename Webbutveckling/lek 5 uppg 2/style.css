@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+#top{
+    width: auto;
+    border: 2px solid #d6001c;
+    display: flex;
+    border-radius: 5px;
+    padding: 5px;
+    flex-direction: column;
+    height: 30%;
+
+    background: url(./img/snow_winter_trees.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+}
+#top-links{
+    border: 2px solid #d6001c;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.top-link{
+    border: 2px  solid black;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 100%;
+    height: 50px;
+    
+}
+#background{
+    max-width: 100%
+}
+#rubrik{
+    font-family: "Mountains of Christmas";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+#middle{
+    border: 2px solid #d6001c;
+    border-radius: 5px;
+    padding: 5px;
+}
+#middle-links{
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+}
+#bottom{
+    display: flex;
+    border: 2px solid #d6001c;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+}
