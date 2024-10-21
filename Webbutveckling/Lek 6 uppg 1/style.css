@@ -1,0 +1,42 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 20vh 80vh 20vh;
+}
+h1{
+    border: 2px solid black;
+    border-radius: 5px;
+    gap: 15px;
+    object-fit: fill;
+    text-align: center;
+    padding: auto;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 5px;
+    gap: 15px;
+    object-fit: cover;
+}
+nav{
+    gap: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+main{
+    gap: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+article{
+    gap: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+}
