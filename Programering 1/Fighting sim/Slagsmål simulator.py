@@ -19,6 +19,9 @@ def main():
             self.maxDamage = maxDamage
             self.lock = threading.Lock()  # Lock to prevent race conditions when both fighters attack
 
+        def __str__(self):
+            return f"{self.name} \nage: {self.age} \nHP: {self.health} \nSpeed: {self.speed}\n"
+
         def hit_enemy(self, other_fighter):
             while self.health > 0 and other_fighter.health > 0:
                 with self.lock:  # Ensure that only one fighter attacks at a time
@@ -40,6 +43,7 @@ def main():
                 # Stop attacking if either fighter is down
                 if other_fighter.health <= 0:
                     slowPrint(f"{other_fighter.name} has been defeated!")
+                    slowPrint(f"{self.name} is crowned winner!")
                     break
 
                 # Sleep based on fighter's speed for attack timing
