@@ -6,7 +6,7 @@ body{
     padding: 10px;
     background-color: rgb(255, 218, 126) ; 
     grid-template-columns: 30vh auto; 
-    grid-template-rows: 2.5fr 1fr 9fr;
+    grid-template-rows: 3fr .5fr 9fr;
     gap: 10px;
     border-radius: 10px;
 }
@@ -32,12 +32,18 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 5%;
 }
 .grid-container-small{
     display: flex;
     flex-direction: column;
     background-color: rgb(233, 195, 98);
+    border-radius: 10px;
+    align-items: center;
+}
+.small-item{
+    background-color: rgb(223, 185, 90);
     border-radius: 10px;
 }
 main{
