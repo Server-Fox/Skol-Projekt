@@ -10,6 +10,19 @@ body{
     gap: 10px;
     border-radius: 10px;
 }
+#rubrik{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+img{
+    max-height: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
 .grid-item{
     background-color: rgb(233, 195, 98);
     border-radius: 10px;
@@ -24,8 +37,12 @@ body{
 .grid-container-small{
     display: flex;
     flex-direction: column;
+    background-color: rgb(233, 195, 98);
+    border-radius: 10px;
 }
 main{
 display: grid;
 grid-template-columns: 50% 50%;
+gap: 10px;
+padding-right: 10px;
 }
