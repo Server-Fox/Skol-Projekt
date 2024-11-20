@@ -6,22 +6,33 @@ body{
     padding: 10px;
     background-color: rgb(255, 218, 126) ; 
     grid-template-columns: 30vh auto; 
-    grid-template-rows: 3fr .5fr 9fr;
+    grid-template-rows: 1.5Sfr .5fr 9fr;
     gap: 10px;
     border-radius: 10px;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 195, 98);
+    border-radius: 10px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 #rubrik{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
+    gap: 10px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;   
 }
 img{
-    max-height: 300px;
-    max-width: 100%;
+    object-fit: contain; 
+    width: 100%; 
+    max-height: 200px;
+    display: block;
     border-radius: 10px;
-    object-fit: contain;
 }
 .grid-item{
     background-color: rgb(233, 195, 98);
@@ -41,14 +52,20 @@ img{
     background-color: rgb(233, 195, 98);
     border-radius: 10px;
     align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 .small-item{
     background-color: rgb(223, 185, 90);
     border-radius: 10px;
+    display: block;
+    padding: 10px;
+}
+#list{
+    
 }
 main{
 display: grid;
-grid-template-columns: 50% 50%;
+grid-template-columns: 35% 65%;
 gap: 10px;
-padding-right: 10px;
 }
