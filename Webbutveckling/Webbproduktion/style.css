@@ -60,9 +60,13 @@ img{
     border-radius: 10px;
     display: block;
     padding: 10px;
+    padding-left: 50px;
 }
-#list{
-    
+ol{
+    font-weight: bold;
+    font-size: larger;
+    line-height: 50px;
+
 }
 main{
 display: grid;
