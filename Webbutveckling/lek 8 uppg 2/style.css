@@ -1,0 +1,63 @@
+h1{
+    align-self: center;
+}
+body{
+    padding-inline: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+nav{
+    display: none;
+    border: 2px solid #d6001c;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+header{
+    background: url(./img/snow_winter_trees.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header>div{
+    width: auto;
+    border: 2px solid #d6001c;
+    display: flex;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 5px;
+    flex-direction: column;
+    height: 20%;
+}
+div>img{
+    border: 2px solid black;
+    height: 10%;
+    width: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+main{
+    width: auto;
+    border: 2px solid #d6001c;
+    display: flex;
+    border-radius: 5px;
+    padding: 5px;
+    flex-direction: column;
+}
+article{
+    width: auto;
+    border: 2px solid #d6001c;
+    border-radius: 5px;
+    padding: 5px;
+}
+footer{
+    border: 2px solid #d6001c;
+    border-radius: 5px;
+    padding: 5px;
+    align-self: center;
+}
+aside{
+    display: none;
+}
