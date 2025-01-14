@@ -1,0 +1,19 @@
+h1,p{
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.xtra{
+    background-color: tomato;
+}
+.yellow_background{
+    background-color: #e9dd99;
+}
+.fet_text{
+    font-weight: bolder;
+}
+
