@@ -41,3 +41,13 @@ for(let i=0; i < li_array.length; i++)
 function växla_tema() {
     document.body.classList.toggle("dark_mode")
 }
+let text = document.querySelector(".text");
+let ny_text = document.querySelector("#ny_text");
+function ändra_text(){
+    let texten =ny_text.value;
+}
+function lägg_till(){
+    let texten =ny_text.value;
+    console.log("ny text: "+texten);
+
+}
